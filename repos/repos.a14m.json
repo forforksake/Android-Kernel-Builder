@@ -1,0 +1,37 @@
+[
+  {
+    "kernelSource": {
+      "name": "FFS_Kernel_SU_permissive",
+      "repo": "https://github.com/forforksake/android_kernel_samsung_a145p",
+      "branch": "A145PXXU2AWG1",
+      "device": "a14m",
+      "defconfig": "ffs_a14m_defconfig"
+    },
+      "withKernelSU": true,
+      "toolchains": [
+      {
+      "repo": "https://github.com/forforksake/android_kernel_samsung_a145p",
+      "branch": "A145PXXU2AWG1",
+      "name": "ffs",
+      "binPath": ["toolchain/prebuilts_clang_host_linux-x86_clang-r383902-main/bin"]
+      }
+    ],
+      "ccache":false,
+      "params": {
+      "ARCH": "arm64",
+      "LLVM": "1",
+      "LLVM_IAS": "1",
+      "CC": "ffs/toolchain/prebuilts_clang_host_linux-x86_clang-r383902-main/bin/clang",
+      "externalCommand": {
+      "CROSS_COMPILE": "ffs/toolchain/aarch64-linux-gnu-master/bin/aarch64-linux-gnu-",
+      "CLANG_TRIPLE": "aarch64-linux-gnu-"
+        }
+    },
+      "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/forforksake/AK3",
+      "branch": "master"
+    }
+  }
+]
