@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "FFS_Kernel_SU_permissive",
+      "name": "A1456P_FFS_Kernel",
       "repo": "https://github.com/forforksake/android_kernel_samsung_a145p",
       "branch": "A145PXXU2AWG1",
       "device": "a14m",
       "defconfig": "ffs_a14m_defconfig"
     },
-      "withKernelSU": true,
+      "withKernelSU": false,
       "toolchains": [
       {
       "repo": "https://github.com/forforksake/android_kernel_samsung_a145p",
