@@ -7,7 +7,7 @@
       "device": "a14m",
       "defconfig": "ffs_a14m_defconfig"
     },
-      "withKernelSU": true,
+      "withKernelSU": false,
       "toolchains": [
       {
       "repo": "https://github.com/forforksake/android_kernel_samsung_a145p",
