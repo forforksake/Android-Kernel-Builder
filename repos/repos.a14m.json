@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "FFS_CFKod_kSU",
+      "name": "FFS_CFKod_stockish",
       "repo": "https://github.com/forforksake/android_kernel_samsung_a145p",
       "branch": "A145PXXU2AWG1",
       "device": "a14m",
